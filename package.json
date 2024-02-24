@@ -1,0 +1,15 @@
+{
+  "name": "logo-generator",
+  "version": "1.0.0",
+  "description": "By using this command-line application, the user will be able to select up to three letters in the text color of their choice by entering the color keyword or hexidecimal number. They will also be able to select shapes, either circle, trianlge, or square. The user can select the color of the shape by inputting the color keyword or hexidecimal number. Once the user has selected all options, the appication will create a new logo file in the Output folder. When this file is opened in the browser, the user will see an image matching the desired characteristics defined by the prompts.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Jennie Brockhoff",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
