@@ -1,8 +1,7 @@
 //Packages needed to run application
 const fs = require('fs');
 const inquirer = require('inquirer');
-const shapes = require('./lib/shapes')
-const generateLogo = require('./lib/generateLogo')
+const {Circle, Square, Triangle} = require('./lib/shapes.js')
 
 //creates prompt questions for user input
 inquirer
@@ -20,20 +19,32 @@ inquirer
       {
         name: "shape",
         type: 'list',
-        message: ['Square', 'Circle', 'Triangle']
+        message: "Please select a shape:", 
+        choices: ['Circle', 'Square', 'Triangle']
       },
       {
         name: 'shapeColor',
         type: 'input',
-        message: 'Please input the color keyword or hexidecimal number to generate your shape color'
+        message: 'Please input the color keyword or hexidecimal number to generate your shape color:'
       },
     ])
 
-    //This function uses the generateLogo.js to write a new file to 
+    //This function takes user input to write a new file to logo.svg
     .then((responses) => {
-        const logo = generateLogo(responses);
+       let svg 
+       if (responses.shape === 'Circle') {
+        svg = new Circle (responses.shapeColor, responses.text, responses.textColor)      
+       };
 
-        fs.writeFile('./output/logo.svg', logo, (err) =>
+       if (responses.shape === 'Square') {
+        svg = new Square (responses.shapeColor, responses.text, responses.textColor)      
+       };
+
+       if (responses.shape === 'Triangle') {
+        svg = new Triangle (responses.shapeColor, responses.text, responses.textColor)        
+       };
+
+        fs.writeFile('./output/logo.svg', svg.render(), (err) =>
         err ? console.log(err) : console.log('Generated logo.svg')
         );
     })

@@ -12,8 +12,8 @@ By using this command-line application, the user will be able to select up to th
 6. [Questions?](#questions)
 
 ## Installation
-    npm i
-
+    npm install inquirer@8.2.4
+    npm install jest
 ## Usage
 Here is the link to my GitHub repository for this application:
 
@@ -38,8 +38,10 @@ Join Us
 ## Contributors
 Tutoring assitance from Chris Baird
 
+Tutorials on SVG from https://w3schools.com
+
 ## Tests
-Echo
+Jest
 
 ## Questions?
 GitHub Username: Jbrockhoff  Email Address: jbrockh1@gmail.com. Please contact me with any questions regarding this application or the code.
