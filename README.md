@@ -16,10 +16,12 @@ By using this command-line application, the user will be able to select up to th
     npm install jest
 ## Usage
 Here is the link to my GitHub repository for this application:
-
- https://github.com/Jbrockhoff/Logo-Generator  
+https://github.com/Jbrockhoff/Logo-Generator  
  
- Here are screenshots of my functioning application:  
+ Here are screenshots of my functioning application:
+ ![prompts](./assets/prompts.png)
+ ![test](./assets/test.png)
+ ![result](./assets/result.png)
 
 ## License
 MIT
@@ -44,4 +46,7 @@ Tutorials on SVG from https://w3schools.com
 Jest
 
 ## Questions?
-GitHub Username: Jbrockhoff  Email Address: jbrockh1@gmail.com. Please contact me with any questions regarding this application or the code.
+Please contact me with any questions regarding this application or the code:
+
+GitHub Username: Jbrockhoff  
+Email Address: jbrockh1@gmail.com. 
