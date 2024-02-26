@@ -17,6 +17,9 @@ By using this command-line application, the user will be able to select up to th
 ## Usage
 Here is the link to my GitHub repository for this application:
 https://github.com/Jbrockhoff/Logo-Generator  
+
+Here is a link to a video of the functional application:
+https://drive.google.com/file/d/1IXuQ7omPdBkmjHfmCGr8CveaYKmTTdB3/view
  
  Here are screenshots of my functioning application:
  ![prompts](./assets/prompts.png)

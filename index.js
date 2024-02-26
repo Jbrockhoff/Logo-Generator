@@ -1,7 +1,7 @@
 //Packages needed to run application
 const fs = require('fs');
 const inquirer = require('inquirer');
-const {Circle, Square, Triangle} = require('./lib/shapes.js')
+const {Circle, Square, Triangle} = require('./lib/shapes.js');
 
 //creates prompt questions for user input
 inquirer
@@ -31,7 +31,8 @@ inquirer
 
     //This function takes user input to write a new file to logo.svg
     .then((responses) => {
-       let svg 
+       let svg
+
        if (responses.shape === 'Circle') {
         svg = new Circle (responses.shapeColor, responses.text, responses.textColor)      
        };
