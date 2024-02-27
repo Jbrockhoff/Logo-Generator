@@ -19,8 +19,8 @@ Here is the link to my GitHub repository for this application:
 https://github.com/Jbrockhoff/Logo-Generator  
 
 Here is a link to a video of the functional application:
-https://drive.google.com/file/d/1IXuQ7omPdBkmjHfmCGr8CveaYKmTTdB3/view
- 
+https://drive.google.com/file/d/1g62RxSqqdho9aO7wHp5OpIzvB2C3No5a/view
+
  Here are screenshots of my functioning application:
  ![prompts](./assets/prompts.png)
  ![test](./assets/testrun.png)
