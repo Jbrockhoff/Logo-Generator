@@ -1,7 +1,9 @@
 //Packages needed to run application
 const fs = require('fs');
 const inquirer = require('inquirer');
-const {Circle, Square, Triangle} = require('./lib/shapes.js');
+const {Circle} = require('./lib/shapecircle.js');
+const {Square} = require('./lib/shapesquare.js');
+const {Triangle} = require('./lib/shapetriangle.js');
 
 //creates prompt questions for user input
 inquirer
