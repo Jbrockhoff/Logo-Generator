@@ -23,7 +23,7 @@ https://drive.google.com/file/d/1IXuQ7omPdBkmjHfmCGr8CveaYKmTTdB3/view
  
  Here are screenshots of my functioning application:
  ![prompts](./assets/prompts.png)
- ![test](./assets/test.png)
+ ![test](./assets/testrun.png)
  ![result](./assets/result.png)
 
 ## License
